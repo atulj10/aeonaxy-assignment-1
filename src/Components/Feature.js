@@ -8,7 +8,7 @@ const Feature = ({ w, heading, headingImg, text, image }) => {
                 <div className='absolute w-full z-10  top-0 flex  text-center items-center' style={{height:`${(w<450)? "160%" : "175%"}`,color:"#C4E4FF",backdropFilter:"blur(5px)"}}>
                     <h1 className={`${(w < 450) ? "text2xl" : "text-3xl"} `}> {text}</h1>
                 </div>
-                <img className='rounded-2xl' style={{filter:"brightness(50%)"}} src={image} />
+                <img className='rounded-2xl' style={{filter:"brightness(50%)"}} src={image}  alt='image'/>
             </div>
         </div>
     )
