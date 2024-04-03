@@ -1,0 +1,11 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+    height: 100%;
+    width:100%;
+    background-color: #13194e;
+    /* overflow-x: hidden; */
+}
