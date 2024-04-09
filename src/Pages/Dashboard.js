@@ -13,7 +13,7 @@ const Dashboard = () => {
   var w = window.innerWidth
 
   return (
-    <div className='flex p-2 pl-0 pt-0'>
+    <div className='flex p-2 pl-0 pt-0 text-white'>
       <Navbar w={w} mobile={mobile} setMobile={setMobile} />
       <div className='flex flex-col' style={{ margin: `2% 0 0 ${!(w < 450) ? "18%" : "3%"}` }}>
         {(w < 450) && (<div className=''><button onClick={() => setMobile(false)}><FontAwesomeIcon icon={faBars} /></button></div>)}

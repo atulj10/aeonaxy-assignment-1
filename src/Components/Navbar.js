@@ -8,7 +8,7 @@ import Dropdown from './Dropdown'
 const Navbar = ({w,mobile,setMobile}) => {
 
     return (
-        <div className='z-30 flex flex-col gap-10'>
+        <div className='z-30 flex flex-col gap-10 text-black'>
             <div className={`flex flex-col justify-between p-5 bg-gradient-to-t from-indigo-500 to-cyan-500 h-screen transition-all duration-500 fixed  ${mobile && "mobile"}`}>
                 <div>
                     {(w<450) && (<div><button onClick={()=>{setMobile(true)}}><FontAwesomeIcon icon={faArrowLeft} /></button></div>)}
